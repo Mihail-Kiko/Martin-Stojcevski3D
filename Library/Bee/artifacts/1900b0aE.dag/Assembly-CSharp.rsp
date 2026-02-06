@@ -462,6 +462,7 @@
 "Assets/Environment/PostProcessing/Runtime/Utils/MaterialFactory.cs"
 "Assets/Environment/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Environment/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+"Assets/Interactable.cs"
 "Assets/PlayerController.cs"
 "Assets/PlayerMotor.cs"
 -langversion:9.0

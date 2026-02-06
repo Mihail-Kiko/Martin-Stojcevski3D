@@ -2,21 +2,20 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-
 [RequireComponent(typeof(PlayerMotor))]
-
-
 public class PlayerController : MonoBehaviour
 {
+    public interactable focus;
+
     public LayerMask movementMask;
     Camera cam;
     PlayerMotor motor;
+
     void Start()
     {
         cam = Camera.main;
         motor = GetComponent<PlayerMotor>();
     }
-
 
     void Update()
     {
@@ -28,37 +27,46 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100, movementMask))
             {
                 motor.MoveToPoint(hit.point);
-
-                //Stop focusing any objects
+                RemoveFocus();
             }
         }
 
-        void Update()
+        if (Input.GetMouseButtonDown(1))
         {
-            if (Input.GetMouseButtonDown(0))
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, 100))
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit, 100, movementMask))
+                interactable interactable = hit.collider.GetComponent<interactable>();
+                if (interactable != null)
                 {
-                    motor.MoveToPoint(hit.point);
-
-                    //Stop focusing any objects
-                }
-            }
-
-            if (Input.GetMouseButtonDown(1))
-            {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit, 100))
-                {
-                    // Check if we hit an in.
-                    // if we did set it as our focus
+                    SetFocus(interactable);
                 }
             }
         }
+    }
+
+    void SetFocus(interactable newFocus)
+    {
+        if (newFocus != focus)
+        {
+            if (focus != null)
+                focus.OnDeFocused();
+
+            focus = newFocus;
+            motor.FollowTarget(newFocus);
+        }
+         
+        newFocus.OnFocused(transform); 
+        
+    }
+
+    void RemoveFocus()
+    {
+        if (focus != null)
+            focus.OnDeFocused(); 
+        focus = null;
+        motor.StopFollowingTarget();
     }
 }

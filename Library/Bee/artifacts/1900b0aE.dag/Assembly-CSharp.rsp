@@ -417,6 +417,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/CameraController.cs"
+"Assets/CharacterAnimator.cs"
 "Assets/Environment/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
 "Assets/Environment/PostProcessing/Runtime/Attributes/MinAttribute.cs"
 "Assets/Environment/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
@@ -463,6 +464,8 @@
 "Assets/Environment/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Environment/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
 "Assets/Interactable.cs"
+"Assets/Item.cs"
+"Assets/ItemPickup.cs"
 "Assets/PlayerController.cs"
 "Assets/PlayerMotor.cs"
 -langversion:9.0

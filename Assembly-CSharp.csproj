@@ -55,8 +55,10 @@
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\ItemPickup.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingContext.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Assets\PlayerMotor.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\CharacterAnimator.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />

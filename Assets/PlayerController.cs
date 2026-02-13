@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour
 {
-    public interactable focus;
+    public Interactable focus;
 
     public LayerMask movementMask;
     Camera cam;
@@ -38,7 +38,8 @@ public class PlayerController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, 100))
             {
-                interactable interactable = hit.collider.GetComponent<interactable>();
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+
                 if (interactable != null)
                 {
                     SetFocus(interactable);
@@ -47,25 +48,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void SetFocus(interactable newFocus)
+    void SetFocus(Interactable newFocus)
     {
         if (newFocus != focus)
         {
             if (focus != null)
-                focus.OnDeFocused();
+                focus.OnDefocused(); 
 
             focus = newFocus;
             motor.FollowTarget(newFocus);
         }
-         
-        newFocus.OnFocused(transform); 
-        
+
+        newFocus.OnFocused(transform);
     }
 
     void RemoveFocus()
     {
         if (focus != null)
-            focus.OnDeFocused(); 
+            focus.OnDefocused(); 
+
         focus = null;
         motor.StopFollowingTarget();
     }

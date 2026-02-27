@@ -1,6 +1,5 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour
@@ -19,6 +18,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+        // LEFT CLICK - Move
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -31,6 +34,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        // RIGHT CLICK - Interact
         if (Input.GetMouseButtonDown(1))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -53,7 +57,7 @@ public class PlayerController : MonoBehaviour
         if (newFocus != focus)
         {
             if (focus != null)
-                focus.OnDefocused(); 
+                focus.OnDefocused();
 
             focus = newFocus;
             motor.FollowTarget(newFocus);
@@ -65,7 +69,7 @@ public class PlayerController : MonoBehaviour
     void RemoveFocus()
     {
         if (focus != null)
-            focus.OnDefocused(); 
+            focus.OnDefocused();
 
         focus = null;
         motor.StopFollowingTarget();

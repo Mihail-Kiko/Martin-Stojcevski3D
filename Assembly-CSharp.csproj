@@ -61,6 +61,7 @@
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\InventoryUI.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\Item.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\TaaComponent.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\InventorySlot.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />

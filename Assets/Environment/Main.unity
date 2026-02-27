@@ -486,6 +486,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2b9a31b76e54409cb67dcdf905d34e6, type: 3}
   m_PrefabInstance: {fileID: 160341432}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &165829617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 1395776462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &191824821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 8169558193548516188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &211118329
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +605,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (7)
@@ -1079,6 +1109,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (8)
@@ -1208,6 +1242,17 @@ Transform:
   - {fileID: 896037320}
   m_Father: {fileID: 411834024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &337351967 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 633964730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!4 &392314576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4087213181031252, guid: 1d4e8fdf08b2060448400dd060a320a5, type: 3}
@@ -1538,6 +1583,17 @@ Transform:
   - {fileID: 967877691}
   m_Father: {fileID: 1502916415}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &496202175 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 513953926}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &513953926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1546,6 +1602,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 496202175}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (1)
@@ -1929,6 +1989,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (12)
@@ -2031,6 +2095,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (5)
@@ -2405,6 +2473,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 337351967}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (4)
@@ -3219,6 +3291,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (9)
@@ -3326,6 +3402,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (10)
@@ -3659,7 +3739,7 @@ Transform:
   m_GameObject: {fileID: 926793820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.222, y: -3.898, z: 10.1}
+  m_LocalPosition: {x: -9.457, y: -3.898, z: 10.1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3959,6 +4039,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 1365199134}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (2)
@@ -4061,6 +4145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (19)
@@ -4163,6 +4251,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (13)
@@ -4395,6 +4487,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d4e8fdf08b2060448400dd060a320a5, type: 3}
+--- !u!114 &1060180742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 1095917547}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1095917547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4403,6 +4506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 1060180742}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (3)
@@ -4617,6 +4724,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (15)
@@ -4745,7 +4856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemPickup
   radius: 3
   interactionTransform: {fileID: 1131787332}
-  Item: {fileID: 11400000, guid: dc73eb96cf71bb9449cc0b4b1a945ed3, type: 2}
+  Item: {fileID: 11400000, guid: 1b40f5dd6ce357b42a347053d9ba4505, type: 2}
 --- !u!65 &1131787329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5086,6 +5197,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (18)
@@ -5558,6 +5673,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329515080}
   m_CullTransparentMesh: 1
+--- !u!114 &1365199134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2994449450507327005, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+  m_PrefabInstance: {fileID: 1020229899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1365476458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5627,133 +5753,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce7e7865773b1c24daec1e97606d35ff, type: 3}
---- !u!1 &1384843337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1384843342}
-  - component: {fileID: 1384843341}
-  - component: {fileID: 1384843340}
-  - component: {fileID: 1384843339}
-  - component: {fileID: 1384843338}
-  m_Layer: 0
-  m_Name: Test item
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1384843338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384843337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9095cd2e22e60f04095d0d1804dd2a03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemPickup
-  radius: 3
-  interactionTransform: {fileID: 1384843342}
-  Item: {fileID: 11400000, guid: dc73eb96cf71bb9449cc0b4b1a945ed3, type: 2}
---- !u!65 &1384843339
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384843337}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1384843340
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384843337}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 63c3a1ba0443aba4cac04f890be5feda, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1384843341
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384843337}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1384843342
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384843337}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.02, y: -3.898, z: 10.1}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1395776462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5762,6 +5761,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (14)
@@ -5995,6 +5998,7 @@ GameObject:
   - component: {fileID: 1479108779}
   - component: {fileID: 1479108778}
   - component: {fileID: 1479108777}
+  - component: {fileID: 1479108781}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6085,6 +6089,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1479108781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479108776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839b15f6361c9034a980823ad606f0e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  itemsParent: {fileID: 1007794883}
+  inventoryUI: {fileID: 1329515080}
 --- !u!4 &1494045637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4087213181031252, guid: 1d4e8fdf08b2060448400dd060a320a5, type: 3}
@@ -6471,6 +6489,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (6)
@@ -6848,6 +6870,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4433006447830956, guid: 65b6388fdf5b5d24393f288fe96f3552, type: 3}
   m_PrefabInstance: {fileID: 1035061487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1667592833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667592838}
+  - component: {fileID: 1667592837}
+  - component: {fileID: 1667592836}
+  - component: {fileID: 1667592835}
+  - component: {fileID: 1667592834}
+  m_Layer: 0
+  m_Name: Test item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1667592834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667592833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9095cd2e22e60f04095d0d1804dd2a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemPickup
+  radius: 3
+  interactionTransform: {fileID: 1667592838}
+  Item: {fileID: 11400000, guid: 1b40f5dd6ce357b42a347053d9ba4505, type: 2}
+--- !u!65 &1667592835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667592833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1667592836
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667592833}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 63c3a1ba0443aba4cac04f890be5feda, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1667592837
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667592833}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1667592838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667592833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.809, y: -3.898, z: 10.1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1725521215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7077,6 +7226,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (17)
@@ -7179,6 +7332,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (11)
@@ -7999,6 +8156,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 165829617}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot (16)
@@ -8402,6 +8563,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1007794883}
     m_Modifications:
+    - target: {fileID: 4131557988704885120, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 191824821}
     - target: {fileID: 8888143800935945274, guid: 8be0f704f2775fc48a852924326a471f, type: 3}
       propertyPath: m_Name
       value: InventorySlot
@@ -8506,7 +8671,7 @@ SceneRoots:
   - {fileID: 1447475107}
   - {fileID: 270116600}
   - {fileID: 1867361065}
-  - {fileID: 1384843342}
+  - {fileID: 1667592838}
   - {fileID: 926793825}
   - {fileID: 1131787332}
   - {fileID: 1479108780}

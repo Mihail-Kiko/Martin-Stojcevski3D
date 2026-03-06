@@ -23,3 +23,4 @@ public class CharacterAnimator : MonoBehaviour
         animator.SetFloat("speedPercent", speedPercent, locomationAnimationSmoothTime, Time.deltaTime); 
     }
 }
+// ep.8

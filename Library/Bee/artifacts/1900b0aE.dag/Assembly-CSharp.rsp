@@ -465,6 +465,8 @@
 "Assets/Environment/PostProcessing/Runtime/Utils/MaterialFactory.cs"
 "Assets/Environment/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Environment/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+"Assets/Equipment.cs"
+"Assets/EquipmentManager.cs"
 "Assets/Interactable.cs"
 "Assets/Inventory.cs"
 "Assets/InventorySlot.cs"

@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.Collections;
 
-
-[CreateAssetMenu(fileName = "New Eguipment", menuName = "Inventory/Equipment")]
-public class Equipment : Item {
+[CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Equipment")]
+public class Equipment : Item
+{
     public EquipmentSlot equipSlot;
+    public SkinnedMeshRenderer mesh;
+    public List<EquipmentMeshRegion> coveredMeshRegions = new List<EquipmentMeshRegion>();
 
     public int armorModifier;
     public int damageModifier;
@@ -15,7 +16,8 @@ public class Equipment : Item {
         base.Use();
         EquipmentManager.instance.Equip(this);
         RemoveFromInventory();
-    } 
+    }
 }
 
-public enum EquipmentSlot {Head, Chest, Legs, Weapon, Shield, Feet}
+public enum EquipmentSlot { Head, Chest, Legs, Weapon, Shield, Feet }
+public enum EquipmentMeshRegion { Legs, Arms, Torso }
